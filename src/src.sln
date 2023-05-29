@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI", "AFI\AFI.csproj", "{73717DC3-0124-4A0D-AFB8-A478C2061668}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AFI.Wrapper", "AFI.Wrapper\AFI.Wrapper.csproj", "{6D4836C5-375B-411A-AAA5-375E5FA1B930}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73717DC3-0124-4A0D-AFB8-A478C2061668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73717DC3-0124-4A0D-AFB8-A478C2061668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73717DC3-0124-4A0D-AFB8-A478C2061668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73717DC3-0124-4A0D-AFB8-A478C2061668}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D4836C5-375B-411A-AAA5-375E5FA1B930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D4836C5-375B-411A-AAA5-375E5FA1B930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D4836C5-375B-411A-AAA5-375E5FA1B930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D4836C5-375B-411A-AAA5-375E5FA1B930}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
