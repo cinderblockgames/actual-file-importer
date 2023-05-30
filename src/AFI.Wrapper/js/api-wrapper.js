@@ -9,7 +9,8 @@ async function addTransactions(connectionInfo, accountId, transactions) {
   await api.addTransactions(accountId, transactions);
   
   // Sync the new transactions to the server.
-  await api.downloadBudget(connectionInfo.budgetSyncId);
+  //await api.downloadBudget(connectionInfo.budgetSyncId);
+  await api.internal.send('sync');
   
   // All done.
   await api.shutdown();
