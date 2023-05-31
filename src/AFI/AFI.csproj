@@ -14,6 +14,7 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+      <PackageReference Include="SLSAK" Version="0.2.1" />
     </ItemGroup>
 
 </Project>
