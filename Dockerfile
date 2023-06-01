@@ -2,8 +2,9 @@ FROM mcr.microsoft.com/dotnet/sdk:6.0 as build-env
 
 WORKDIR /app
 COPY ./ ./
-WORKDIR /app/AFI
 RUN dotnet restore
+
+WORKDIR /app/AFI
 RUN dotnet publish -c Release -o out
 
 
