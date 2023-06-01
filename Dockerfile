@@ -11,7 +11,7 @@ FROM mcr.microsoft.com/dotnet/runtime:6.0
 WORKDIR /app
 
 RUN apt-get update && \
-    apt-get install -y dumb-init nodejs && \
+    apt-get install -y dumb-init nodejs npm && \
     npm i @actual-app/api
     
 
