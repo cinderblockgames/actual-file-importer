@@ -10,6 +10,7 @@ public class AccountsInfo
 
     public AccountsInfo(string path)
     {
+        Console.WriteLine($"Loading accounts from '{path}.'");
         var accounts = new Dictionary<string, AccountInfo>();
         
         var directories = Directory.EnumerateDirectories(path);
