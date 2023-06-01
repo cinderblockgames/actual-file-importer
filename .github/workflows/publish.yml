@@ -34,7 +34,7 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: cinderblockgames/actual-file-importer:${{ steps.vars.outputs.major }},cinderblockgames/actual-file-importer:${{ steps.vars.outputs.minor }},cinderblockgames/actual-file-importer:${{ steps.vars.outputs.patch }},cinderblocgkames/actual-file-importer:latest
+          tags: cinderblockgames/actual-file-importer:${{ steps.vars.outputs.major }},cinderblockgames/actual-file-importer:${{ steps.vars.outputs.minor }},cinderblockgames/actual-file-importer:${{ steps.vars.outputs.patch }},cinderblockgames/actual-file-importer:latest
           
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
