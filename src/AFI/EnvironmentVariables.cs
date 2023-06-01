@@ -30,7 +30,8 @@ public class EnvironmentVariables
         if (!env.TryGetValue("SERVER_PASSWORD", out string? serverPassword) || string.IsNullOrWhiteSpace(serverPassword))
         {
             if (!env.TryGetValue("SERVER_PASSWORD_FILE", out string? serverPasswordFile) ||
-                string.IsNullOrWhiteSpace(serverPasswordFile))
+                string.IsNullOrWhiteSpace(serverPasswordFile) ||
+                !File.Exists(serverPasswordFile))
             {
                 throw new Exception("SERVER_PASSWORD or SERVER_PASSWORD_FILE (and related file) must be valued.");
             }
